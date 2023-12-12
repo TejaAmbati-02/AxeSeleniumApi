@@ -1,0 +1,461 @@
+[
+  {
+    "description": "Ensures every accesskey attribute value is unique",
+    "help": "accesskey attribute value must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/accesskeys?application=axeAPI",
+    "id": "accesskeys",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "best-practice",
+      "cat.keyboard"
+    ]
+  },
+  {
+    "description": "Ensures <area> elements of image maps have alternate text",
+    "help": "Active <area> elements must have alternate text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/area-alt?application=axeAPI",
+    "id": "area-alt",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111",
+      "section508",
+      "section508.22.a"
+    ]
+  },
+  {
+    "description": "Ensures ARIA attributes are allowed for an element's role",
+    "help": "Elements must only use allowed ARIA attributes",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-allowed-attr?application=axeAPI",
+    "id": "aria-allowed-attr",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+    ]
+  },
+  {
+    "description": "Ensures unsupported DPUB roles are only used on elements with implicit fallback roles",
+    "help": "Unsupported DPUB ARIA roles should be used on elements with implicit fallback roles",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-dpub-role-fallback?application=axeAPI",
+    "id": "aria-dpub-role-fallback",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag131"
+    ]
+  },
+  {
+    "description": "Ensures all ARIA attributes have valid values",
+    "help": "ARIA attributes must conform to valid values",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr-value?application=axeAPI",
+    "id": "aria-valid-attr-value",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+    ]
+  },
+  {
+    "description": "Ensures attributes that begin with aria- are valid ARIA attributes",
+    "help": "ARIA attributes must conform to valid names",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/aria-valid-attr?application=axeAPI",
+    "id": "aria-valid-attr",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.aria",
+      "wcag2a",
+      "wcag412"
+    ]
+  },
+  {
+    "description": "Ensure the autocomplete attribute is correct and suitable for the form field",
+    "help": "autocomplete attribute must be used correctly",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/autocomplete-valid?application=axeAPI",
+    "id": "autocomplete-valid",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.forms",
+      "wcag21aa",
+      "wcag135"
+    ]
+  },
+  {
+    "description": "Ensures <blink> elements are not used",
+    "help": "<blink> elements are deprecated and must not be used",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/blink?application=axeAPI",
+    "id": "blink",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.time-and-media",
+      "wcag2a",
+      "wcag222",
+      "section508",
+      "section508.22.j"
+    ]
+  },
+  {
+    "description": "Ensures buttons have discernible text",
+    "help": "Buttons must have discernible text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/button-name?application=axeAPI",
+    "id": "button-name",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.name-role-value",
+      "wcag2a",
+      "wcag412",
+      "section508",
+      "section508.22.a"
+    ]
+  },
+  {
+    "description": "Ensures related <input type=\"checkbox\"> elements have a group and that the group designation is consistent",
+    "help": "Checkbox inputs with the same name attribute value must be part of a group",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/checkboxgroup?application=axeAPI",
+    "id": "checkboxgroup",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.forms",
+      "best-practice"
+    ]
+  },
+  {
+    "description": "Ensures <dl> elements are structured correctly",
+    "help": "<dl> elements must only directly contain properly-ordered <dt> and <dd> groups, <script> or <template> elements",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/definition-list?application=axeAPI",
+    "id": "definition-list",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+    ]
+  },
+  {
+    "description": "Ensures <dt> and <dd> elements are contained by a <dl>",
+    "help": "<dt> and <dd> elements must be contained by a <dl>",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/dlitem?application=axeAPI",
+    "id": "dlitem",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+    ]
+  },
+  {
+    "description": "Ensures every id attribute value used in ARIA and in labels is unique",
+    "help": "IDs used in ARIA and labels must be unique",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/duplicate-id-aria?application=axeAPI",
+    "id": "duplicate-id-aria",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag411"
+    ]
+  },
+  {
+    "description": "Ensure that HTML elements with both valid lang and xml:lang attributes agree on the base language of the page",
+    "help": "HTML elements with lang and xml:lang must have the same base language",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/html-xml-lang-mismatch?application=axeAPI",
+    "id": "html-xml-lang-mismatch",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.language",
+      "wcag2a",
+      "wcag311"
+    ]
+  },
+  {
+    "description": "Ensures <img> elements have alternate text or a role of none or presentation",
+    "help": "Images must have alternate text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI",
+    "id": "image-alt",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111",
+      "section508",
+      "section508.22.a"
+    ]
+  },
+  {
+    "description": "Ensures <input type=\"image\"> elements have alternate text",
+    "help": "Image buttons must have alternate text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/input-image-alt?application=axeAPI",
+    "id": "input-image-alt",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111",
+      "section508",
+      "section508.22.a"
+    ]
+  },
+  {
+    "description": "Ensures that every form element is not solely labeled using the title or aria-describedby attributes",
+    "help": "Form elements should have a visible label",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/label-title-only?application=axeAPI",
+    "id": "label-title-only",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.forms",
+      "best-practice"
+    ]
+  },
+  {
+    "description": "Ensures every form element has a label",
+    "help": "Form elements must have labels",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/label?application=axeAPI",
+    "id": "label",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.forms",
+      "wcag2a",
+      "wcag332",
+      "wcag131",
+      "section508",
+      "section508.22.n"
+    ]
+  },
+  {
+    "description": "Ensures the banner landmark is at top level",
+    "help": "Banner landmark must not be contained in another landmark",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/landmark-banner-is-top-level?application=axeAPI",
+    "id": "landmark-banner-is-top-level",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.semantics",
+      "best-practice"
+    ]
+  },
+  {
+    "description": "Ensures presentational <table> elements do not use <th>, <caption> elements or the summary attribute",
+    "help": "Layout tables must not use data table elements",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/layout-table?application=axeAPI",
+    "id": "layout-table",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.semantics",
+      "wcag2a",
+      "wcag131"
+    ]
+  },
+  {
+    "description": "Ensures that lists are structured correctly",
+    "help": "<ul> and <ol> must only directly contain <li>, <script> or <template> elements",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/list?application=axeAPI",
+    "id": "list",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+    ]
+  },
+  {
+    "description": "Ensures <li> elements are used semantically",
+    "help": "<li> elements must be contained in a <ul> or <ol>",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/listitem?application=axeAPI",
+    "id": "listitem",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.structure",
+      "wcag2a",
+      "wcag131"
+    ]
+  },
+  {
+    "description": "Ensures <marquee> elements are not used",
+    "help": "<marquee> elements are deprecated and must not be used",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/marquee?application=axeAPI",
+    "id": "marquee",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.parsing",
+      "wcag2a",
+      "wcag222"
+    ]
+  },
+  {
+    "description": "Ensures <object> elements have alternate text",
+    "help": "<object> elements must have alternate text",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/object-alt?application=axeAPI",
+    "id": "object-alt",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag111",
+      "section508",
+      "section508.22.a"
+    ]
+  },
+  {
+    "description": "Ensures related <input type=\"radio\"> elements have a group and that the group designation is consistent",
+    "help": "Radio inputs with the same name attribute value must be part of a group",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/radiogroup?application=axeAPI",
+    "id": "radiogroup",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.forms",
+      "best-practice"
+    ]
+  },
+  {
+    "description": "Ensures the scope attribute is used correctly on tables",
+    "help": "scope attribute should be used correctly",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/scope-attr-valid?application=axeAPI",
+    "id": "scope-attr-valid",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.tables",
+      "best-practice"
+    ]
+  },
+  {
+    "description": "Ensures that server-side image maps are not used",
+    "help": "Server-side image maps must not be used",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/server-side-image-map?application=axeAPI",
+    "id": "server-side-image-map",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag211",
+      "section508",
+      "section508.22.f"
+    ]
+  },
+  {
+    "description": "Ensure all skip links have a focusable target",
+    "help": "The skip-link target should exist and be focusable",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/skip-link?application=axeAPI",
+    "id": "skip-link",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.keyboard",
+      "best-practice"
+    ]
+  },
+  {
+    "description": "Ensure that tables do not have the same summary and caption",
+    "help": "The <caption> element should not contain the same text as the summary attribute",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/table-duplicate-name?application=axeAPI",
+    "id": "table-duplicate-name",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.tables",
+      "best-practice"
+    ]
+  },
+  {
+    "description": "Ensure that each cell in a table using the headers refers to another cell in that table",
+    "help": "All cells in a table element that use the headers attribute must only refer to other cells of that same table",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/td-headers-attr?application=axeAPI",
+    "id": "td-headers-attr",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.tables",
+      "wcag2a",
+      "wcag131",
+      "section508",
+      "section508.22.g"
+    ]
+  },
+  {
+    "description": "Ensure that each table header in a data table refers to data cells",
+    "help": "All th elements and elements with role=columnheader/rowheader must have data cells they describe",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/th-has-data-cells?application=axeAPI",
+    "id": "th-has-data-cells",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.tables",
+      "wcag2a",
+      "wcag131",
+      "section508",
+      "section508.22.g"
+    ]
+  },
+  {
+    "description": "Ensures lang attributes have valid values",
+    "help": "lang attribute must have a valid value",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/valid-lang?application=axeAPI",
+    "id": "valid-lang",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.language",
+      "wcag2aa",
+      "wcag312"
+    ]
+  },
+  {
+    "description": "Ensures <video> elements have captions",
+    "help": "<video> elements must have captions",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/video-caption?application=axeAPI",
+    "id": "video-caption",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2a",
+      "wcag122",
+      "section508",
+      "section508.22.a"
+    ]
+  },
+  {
+    "description": "Ensures <video> elements have audio descriptions",
+    "help": "<video> elements must have an audio description track",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/video-description?application=axeAPI",
+    "id": "video-description",
+    "impact": null,
+    "nodes": [],
+    "tags": [
+      "cat.text-alternatives",
+      "wcag2aa",
+      "wcag125",
+      "section508",
+      "section508.22.b"
+    ]
+  }
+]

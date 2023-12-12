@@ -1,0 +1,33 @@
+[
+  {
+    "description": "Ensures <iframe> and <frame> elements contain the axe-core script",
+    "help": "Frames must be tested with axe-core",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/frame-tested?application=axeAPI",
+    "id": "frame-tested",
+    "impact": "critical",
+    "nodes": [
+      {
+        "all": [
+          {
+            "data": null,
+            "id": "frame-tested",
+            "impact": "critical",
+            "message": "The iframe still has to be tested with axe-core",
+            "relatedNodes": []
+          }
+        ],
+        "any": [],
+        "html": "<iframe src=\"https://challenges.cloudflare.com/cdn-cgi/challenge-platform/h/b/turnstile/if/ov2/av0/rcv0/0/542uk/0x4AAAAAAADnPIDROrmt1Wwj/light/normal\" allow=\"cross-origin-isolated; fullscreen\" sandbox=\"allow-same-origin allow-scripts allow-popups\" id=\"cf-chl-widget-542uk\" tabindex=\"0\" title=\"Widget containing a Cloudflare security challenge\" style=\"border: none; overflow: hidden; width: 300px; height: 65px;\">",
+        "impact": "critical",
+        "none": [],
+        "target": [
+          "#cf-chl-widget-542uk"
+        ]
+      }
+    ],
+    "tags": [
+      "cat.structure",
+      "review-item"
+    ]
+  }
+]

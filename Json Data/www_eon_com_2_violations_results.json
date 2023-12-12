@@ -1,0 +1,38 @@
+[
+  {
+    "description": "Ensures <meta http-equiv=\"refresh\"> is not used",
+    "help": "Timed refresh must not exist",
+    "helpUrl": "https://dequeuniversity.com/rules/axe/3.1/meta-refresh?application=axeAPI",
+    "id": "meta-refresh",
+    "impact": "critical",
+    "nodes": [
+      {
+        "all": [],
+        "any": [
+          {
+            "data": null,
+            "id": "meta-refresh",
+            "impact": "critical",
+            "message": "<meta> tag forces timed refresh of page",
+            "relatedNodes": []
+          }
+        ],
+        "failureSummary": "Fix any of the following:\n  <meta> tag forces timed refresh of page",
+        "html": "<meta http-equiv=\"refresh\" content=\"375\">",
+        "impact": "critical",
+        "none": [],
+        "target": [
+          "meta[http-equiv=\"refresh\"]"
+        ]
+      }
+    ],
+    "tags": [
+      "cat.time",
+      "wcag2a",
+      "wcag2aaa",
+      "wcag221",
+      "wcag224",
+      "wcag325"
+    ]
+  }
+]
